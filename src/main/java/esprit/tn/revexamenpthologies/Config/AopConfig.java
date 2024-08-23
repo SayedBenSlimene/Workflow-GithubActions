@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 public class AopConfig {
 
 
+//saszeczerfzerf
+//saszeczerfzerf
 
     @AfterReturning(value = "execution(* esprit.tn.revexamenpthologies.services.*.*(..))")
     void journal(JoinPoint joinPoint){

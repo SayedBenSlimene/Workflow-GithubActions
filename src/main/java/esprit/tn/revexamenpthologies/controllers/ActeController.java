@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 public class ActeController {
 //test1234dfseee
      @Autowired
-     IActeService iActeeService;
+     IActeService iActeService;
 
      @GetMapping("/AjoutActe/{Id}")
      public float calculerFacture(@PathVariable("Id") String Id){

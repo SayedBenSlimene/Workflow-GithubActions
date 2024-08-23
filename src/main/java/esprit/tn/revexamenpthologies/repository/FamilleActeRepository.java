@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FamilleActeRepository extends JpaRepository<FamilleActe, Long> {
+    //saszeczerfzerf
+
 }
